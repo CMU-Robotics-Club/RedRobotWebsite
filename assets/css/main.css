@@ -886,6 +886,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
+#event-slides {
+  background: #ffffff;
+}
+
 #event-slides .video img {
   border-radius: 4px;
 }
@@ -911,6 +915,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 #event-slides .list-specification li i {
   margin-right: 5px;
 }
+
 
 .counter-section {
   background: #800;
@@ -957,7 +962,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* Sponsors Area */
 #sponsors {
-  background: #f3f4f3;
+  background: #ffffff;
 }
 
 #sponsors .spnsors-logo {
@@ -1157,7 +1162,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* Services Item */
 .services {
-  background: #fff;
+  background: #f3f4f3;
 }
 
 .padding-none {
@@ -1521,10 +1526,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   transform: scale(1.1);
 }
 
-/* Conact Home Page Section */
-.contact {
-  background: #111111;
+#contact-map{
+  background: #f3f4f3 
 }
+
 
 #conatiner-map {
   width: 100%;
@@ -1560,7 +1565,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .contact-item .contact-info h3 {
   color: #800;
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .contact-item .contact-info p {
@@ -1568,9 +1573,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* Subscribe Form */
-#subscribe {
-  background: #f2f2f2;
-}
 
 .subscribe-inner {
   padding: 50px 0;
@@ -1665,7 +1667,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   text-transform: capitalize;
   background: #f7f7f7;
   border: 1px solid transparent;
-  padding: 7px 19px;
+  padding: 7px 10px;
   border-radius: 0px;
   background-image: none;
   background-clip: padding-box;
