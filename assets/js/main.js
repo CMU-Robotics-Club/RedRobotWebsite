@@ -77,6 +77,16 @@
         return false;
       });
 
+    /* Contact us form
+     * ========================================================*/
+      $("#subscribe-form").submit(function(e) {
+          e.preventDefault();
+          var link = "https://docs.google.com/forms/d/e/1FAIpQLSfOHxTkFIjXU7jd8TrTogXecsejovtRwN0UHFtM3YiNkWp_iQ/viewform?usp=pp_url&entry.616546395=";
+          var email_value = $("#subscribe-form-email").val();
+          var redirect_link = link + encodeURIComponent(email_value);
+          document.location.href = redirect_link;
+      });
+
   });      
 
 }(jQuery));
