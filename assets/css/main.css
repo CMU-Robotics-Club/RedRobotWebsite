@@ -224,9 +224,24 @@ ul li, ol li {
 }
 
 .btn-common {
-  background-color: #800;
+  border: 1px solid #fff;
   position: relative;
   z-index: 1;
+}
+
+.btn-pads {
+  border: 1px solid #000;
+  background-color: #800;
+  text-align: center;
+  z-index: 1;
+}
+.btn-pads:hover {
+  color: #ffffff;
+  background: #B00;
+  box-shadow: 0 6px 22px rgba(110, 0, 0, 1.0);
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
 }
 
 .btn-common:hover {
@@ -497,6 +512,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .section-padding {
   padding: 60px 0;
+}
+
+.section-padding-red{
+  padding: 60px 0;
+  background-color: #800;
 }
 
 .no-padding {
@@ -1635,7 +1655,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   box-shadow: none;
   color: #888999;
   height: 55px;
-  margin-right: -1px;
+  margin-right: 192px;
+  padding-right: 192px;
   width: 90%;
 }
 
@@ -1651,6 +1672,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-bottom: 30px;
   margin: 0 auto;
   width: 100%;
+  margin-right: 10px; 
 }
 
 /* Contact Forme */
@@ -1948,9 +1970,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 10px 68px;
 }
 
+
+
 .countdown-timer .heading-count h2 {
   font-size: 40px;
-  color: #212121;
+  color: #fff;
   text-transform: uppercase;
   line-height: 48px;
 }
